@@ -25,7 +25,7 @@ const SampleNew = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3002/", {
+      const response = await fetch("https://mern-stack-backend-8qt3.onrender.com/", {
         method: "POST", // HTTP method for creating a new record
         headers: {
           "Content-Type": "application/json",
